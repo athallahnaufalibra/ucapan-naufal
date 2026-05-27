@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #fdf8f3;
+    font-family: 'Lora', serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .wrapper {
+    max-width: 560px;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Corner decorations */
+  .corner {
+    position: absolute;
+    font-size: 22px;
+    opacity: 0.6;
+  }
+  .corner.tl { top: -8px; left: -8px; }
+  .corner.tr { top: -8px; right: -8px; }
+  .corner.bl { bottom: -8px; left: -8px; }
+  .corner.br { bottom: -8px; right: -8px; }
+
+  .card {
+    background: #ffffff;
+    border: 1.5px solid #f0d9c0;
+    border-radius: 16px;
+    padding: 48px 44px;
+    animation: fadeIn 0.8s ease both;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .flower-top {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-bottom: 28px;
+    opacity: 0.7;
+  }
+
+  .text-body {
+    font-size: 15px;
+    line-height: 2;
+    color: #3d3028;
+    white-space: pre-line;
+  }
+
+  .divider {
+    text-align: center;
+    margin: 28px 0;
+    color: #d4a96a;
+    font-size: 16px;
+    letter-spacing: 8px;
+    opacity: 0.7;
+  }
+
+  .signature {
+    text-align: right;
+    margin-top: 32px;
+    font-size: 15px;
+    color: #a07040;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <span class="corner tl">🌸</span>
+  <span class="corner tr">🌼</span>
+  <span class="corner bl">🌷</span>
+  <span class="corner br">🌻</span>
+
+  <div class="card">
+    <div class="flower-top">✿ ✿ ✿</div>
+
+    <div class="text-body">Aku merasa sangat beruntung dikehidupanku belakangan ini, karena ada kamu didalamnya. Walaupun rasanya terasa berat dan lelah tapi aku merasa tidak berjalan sendiri di kehidupan yang penuh badai ini. Terima kasih sudah menjadi tenang yang kubutuhkan dari riuhnya dunia yang membuat sesak.
+
+Dari banyaknya kebetulan yang ada, bertemu denganmu menjadi hal yang paling aku syukuri. Seolah semesta memang sengaja mempertemukan kita untuk saling menemukan arti dan tujuan. Senang sekali aku bisa berjalan bersama denganmu, langkah demi langkah yang membuat aku menjadi versi lebih baik.
+
+Sebagai bentuk kecil dari rasa terima kasihku, aku harap kamu suka dengan lego bunga yang aku berikan. Legonya sudah aku rakit terlebih dahulu, supaya kamu tidak perlu pusing menyusunnya sendirian. Karena aku tahu, selama ini kamu sudah cukup lelah menyusun banyak hal di hidupmu seorang diri.
+
+Ada juga botol minum yang aku buat khusus untuk kamu, satu-satunya, dan tidak akan ada yang sama di dunia ini. Semoga botol itu bisa menjadi pengingat kecil di sela sibuknya hari-harimu, bahwa kesehatanmu juga penting, bahwa kamu juga perlu berhenti sejenak, beristirahat, dan menjaga dirimu dengan baik.
+
+Teruslah menjadi setitik terang, di antara riuh dunia yang sering kali melelahkan. Jangan redup hanya karena langit sedang gelap, karena ada banyak hal yang diam-diam hidup dari hangat cahayamu.
+
+Dan jika suatu hari langkahmu terasa berat, izinkan aku menjadi tempat pulang yang selalu menunggumu tanpa banyak syarat. Sebab bagiku, kamu bukan hanya seseorang yang datang lalu singgah, melainkan rumah yang ingin selalu aku jaga.</div>
+
+    <div class="divider">· · ·</div>
+
+    <div class="signature">— Naufal</div>
+  </div>
+</div>
+</body>
+</html>
